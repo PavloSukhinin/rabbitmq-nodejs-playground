@@ -1,0 +1,44 @@
+{
+  "name": "RabbitMQ-AMQP-0-9-1-NodeJS-Examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": "20.x.x",
+    "npm": "10.x.x"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Pavlo Sukhnin",
+    "email": "psykhinin@gmail.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "01:listen": "node --env-file=.env examples/01-basic/listen.js",
+    "01:send": "node --env-file=.env examples/01-basic/send.js",
+    "02:listen": "node --env-file=.env examples/02-messages-with-delay/listen.js",
+    "02:send": "node --env-file=.env examples/02-messages-with-delay/send.js",
+    "03:listen": "node --env-file=.env examples/03-mixed-delayed-and-not/listen.js",
+    "03:send": "node --env-file=.env examples/03-mixed-delayed-and-not/send.js",
+    "04:listen": "node --env-file=.env examples/04-multiple-consumers/listen.js",
+    "04:send": "node --env-file=.env examples/04-multiple-consumers/send.js",
+    "05:listen": "node --env-file=.env examples/05-topics/listen.js",
+    "05:send": "node --env-file=.env examples/05-topics/send.js",
+    "06:listen": "node --env-file=.env examples/06-messages-deduplication/listen.js",
+    "06:send": "node --env-file=.env examples/06-messages-deduplication/send.js",
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "amqplib": "0.10.3"
+  }
+}
