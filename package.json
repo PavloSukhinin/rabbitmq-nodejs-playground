@@ -1,10 +1,10 @@
 {
-  "name": "RabbitMQ-AMQP-0-9-1-NodeJS-Examples",
+  "name": "RabbitMQ-NodeJS-Examples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "license": "AGPL-version-3.0",
+  "license": "MIT",
   "private": false,
   "engines": {
     "node": "20.x.x",
