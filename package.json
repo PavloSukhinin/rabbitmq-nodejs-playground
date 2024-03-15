@@ -34,9 +34,7 @@
     "05:listen": "node --env-file=.env examples/05-topics/listen.js",
     "05:send": "node --env-file=.env examples/05-topics/send.js",
     "06:listen": "node --env-file=.env examples/06-messages-deduplication/listen.js",
-    "06:send": "node --env-file=.env examples/06-messages-deduplication/send.js",
-    "dev": "",
-    "test": ""
+    "06:send": "node --env-file=.env examples/06-messages-deduplication/send.js"
   },
   "dependencies": {
     "amqplib": "0.10.3"
